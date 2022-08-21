@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>convert</title>
+
+</head>
+<body>
+    <form>
+      <div style="display: inline-block;">
+        <label>Amount</label><br>
+        <input id="amount" placeholder=" enter">
+      </div>
+      <div style="display: inline-block;">
+        <label>fromCurrency</label><br>
+        <select id="fromCurrency">
+          <option>VND</option>
+          <option>USD</option>
+        </select>
+      </div>
+        <div style="display: inline-block;">
+          <label>To Currency</label><br>
+          <select id="toCurrency">
+            <option>VND</option>
+            <option>USD</option>
+          </select>
+      </div>
+    </form>
+
+    <button type = "button" onclick="convertCurrency();">Convert</button>
+    <p id="result"></p>
+
+    <script src = "jss.js" ></script>
+</body>
+</html>
